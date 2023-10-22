@@ -1,0 +1,20 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
+
+namespace Lab08AMM
+{
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class StyleCss : ContentPage
+    {
+        public StyleCss()
+        {
+            InitializeComponent();
+        }
+    }
+}
